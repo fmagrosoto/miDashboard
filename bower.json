@@ -1,0 +1,25 @@
+{
+  "name": "midashboard",
+  "description": "Plantilla basada en Bootstrap para interfaz administrativa",
+  "main": "server.js",
+  "authors": [
+    "Fernando Magrosoto V."
+  ],
+  "license": "MIT",
+  "keywords": [
+    "dashboard",
+    "bootstrap",
+    "fmagrosoto",
+    "plantilla"
+  ],
+  "homepage": "https://github.com/fmagrosoto/miDashboard",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
