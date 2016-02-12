@@ -22,3 +22,4 @@ gulp.task('fonts',function(){
 });
 
 gulp.task('pasarBoo',['bootCss','bootJs','jQuery','fonts']);
+
