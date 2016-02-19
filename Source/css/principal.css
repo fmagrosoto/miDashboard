@@ -1,0 +1,11 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: white;
+    background-image: url(/img/greyzz.png);
+    background-position: left top;
+    background-repeat: repeat;
+    color: rgb(50,50,50);
+}
+
