@@ -32,36 +32,40 @@
                     <div class="thumbnail">
                         <img src="http://placehold.it/350x125?text=logo+350x125" alt="">
                     </div>
-                    <form>
-                        <div id="group-usuario" class="form-group has-feedback has-success">
+                    <form id="formIniSes" 
+                    method="post" 
+                    autocomplete="off" 
+                    action="">
+                        <div id="group-usuario" class="form-group has-feedback">
                             <div id="input-usuario" class="input-group">
                                 <span class="input-group-addon">
                                     <span class="glyphicon glyphicon-user"></span>
                                 </span>
                                 <input type="text" 
+                                name="usuario" 
                                 class="form-control" 
                                 placeholder="Usuario" 
                                 required 
                                 maxlength="10">
-                                <span class="glyphicon glyphicon-ok form-control-feedback" 
-                                aria-hidden="true"></span>
                             </div>
                         </div>
-                        <div id="group-password" class="form-group has-feedback has-error">
+                        <div id="group-password" class="form-group has-feedback">
                             <div id="input-password" class="input-group">
                                 <span class="input-group-addon">
                                     <span class="glyphicon glyphicon-lock"></span>
                                 </span>
                                 <input type="password" 
+                                name="pwd" 
                                 class="form-control" 
                                 placeholder="Contraseña" 
                                 required 
                                 maxlength="10">
-                                <span class="glyphicon glyphicon-remove form-control-feedback" 
-                                aria-hidden="true"></span>
                             </div>
                         </div>
-                        <button type="submit" class="btn btn-primary btn-block">
+                        <button id="botIniSes" 
+                        type="submit" 
+                        class="btn btn-primary btn-block">
+                        <span class="glyphicon glyphicon-log-in"></span>&nbsp;
                             Iniciar sesión
                         </button>
                     </form>
