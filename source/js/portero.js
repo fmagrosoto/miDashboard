@@ -6,7 +6,7 @@
  * @author Fernando Magrosoto <@fmagrosoto>
  */
 $(function(){
-    $.get('api/ajax_verSesPortero.php')
+    $.get('api/ajax_verSesion.php')
     .done( function( response ){
         if(response === 'sesIni'){
             location.replace('/dashboard.html');
